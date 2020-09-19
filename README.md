@@ -1,4 +1,5 @@
 Reference:  https://github.com/vercel/next.js/issues/14892
+Detail commit: https://github.com/nitaking/sample-blitz-svg-setting/commit/58649f378bbce466fa43e29418c1a03260bfbb92
 
 # How to this
 
