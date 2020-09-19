@@ -3,6 +3,7 @@ import Layout from "app/layouts/Layout"
 import logout from "app/auth/mutations/logout"
 import { useCurrentUser } from "app/hooks/useCurrentUser"
 import { Suspense } from "react"
+import Gangnam from "../../public/gangnam-style.svg"
 
 /*
  * This file is just for a pleasant getting started page for your new app.
@@ -82,6 +83,9 @@ const Home: BlitzPage = () => {
             <a>/projects</a>
           </Link>
         </p>
+
+        <Gangnam className="svgStyle" />
+
         <div className="buttons" style={{ marginTop: "5rem" }}>
           <a
             className="button"
@@ -249,6 +253,10 @@ const Home: BlitzPage = () => {
             width: 100%;
             flex-direction: column;
           }
+        }
+        
+        .svgStyle {
+            height: 300px;
         }
       `}</style>
     </div>
